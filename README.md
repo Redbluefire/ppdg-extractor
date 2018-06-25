@@ -12,14 +12,8 @@ Program specifically configured on Windows - includes ChromeDriver.exe - for gma
 3) Rename config.sample.py to config.py and edit the following variables:
 	
 	a) Change IMAP_USERNAME to your gmail account
-	
-	b) Change IMAP_PASSWORD to your gmail password
-	
-	c) Change XPATH locations for card_amount, card_number, and card_pin if necessary (will be required if these fields come back as N/A in the console. XPATH can be found by inspecting element in Chrome, right clicking on the item in the elements console, Copy, "Copy XPATH".
-	
-	d) Create a gmail label for the cards you would like to extract and change FOLDER to this label. This label will serve as the processing folder for your cards. When you would like to extract a card, label it with this label, run the extractor, and then move the card to another label. The program can only see cards that reside in this label.
-	
-	e) Note: When logging in for the first time, gmail may block access. You will need to follow the steps in the email to follow to enable less secure applications.
+		
+	b) Create a gmail label for the cards you would like to extract and change FOLDER to this label. This label will serve as the processing folder for your cards. When you would like to extract a card, label it with this label, run the extractor, and then move the card to another label. The program can only see cards that reside in this label.
 	
 4) Double click on MasterExtractor.bat to run the program. You will get .jpg screenshots in the "screenshots" folder and will have a .csv file with near GCW (GiftCardWiki) submission standards. In order to access the cards, open the .csv file with your notepad program of choice. I prefer Notepad++ (https://notepad-plus-plus.org/download/v7.5.3.html).
 
